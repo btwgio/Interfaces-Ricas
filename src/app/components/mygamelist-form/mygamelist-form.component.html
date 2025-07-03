@@ -1,0 +1,35 @@
+<p-card header="{{ isEditMode ? 'Editar Jogo' : 'Adicionar Jogo' }}">
+  <form [formGroup]="jogoForm" (ngSubmit)="onSubmit()">
+    <div class="p-fluid p-formgrid p-grid">
+      <div class="p-field p-col-12">
+        <label for="titulo">Título</label>
+        <input id="titulo" type="text" pInputText formControlName="titulo" />
+      </div>
+      <div class="p-field p-col-12 p-md-6">
+        <label for="ano">Ano</label>
+        <input id="ano" type="number" pInputText formControlName="ano" />
+      </div>
+      <div class="p-field p-col-12 p-md-6">
+        <label for="genero">Gênero</label>
+        <input id="genero" type="text" pInputText formControlName="genero" />
+      </div>
+      <div class="p-field p-col-12 p-md-6">
+        <label for="plataforma">Plataforma</label>
+        <input id="plataforma" type="text" pInputText formControlName="plataforma" />
+      </div>
+      <div class="p-field-checkbox p-col-12 p-md-6">
+        <p-checkbox 
+          inputId="completado" 
+          formControlName="completado" 
+          binary="true"
+        ></p-checkbox>
+        <label for="completado">Completado</label>
+      </div>
+    </div>
+    <div class="p-mt-3">
+      <button pButton type="submit" label="Salvar" [disabled]="jogoForm.invalid"></button>
+      <button pButton type="button" label="Cancelar" class="p-button-secondary" (click)="voltar()" style="margin-left: 0.5rem"></button>
+    </div>
+  </form>
+</p-card>
+<p-toast></p-toast>

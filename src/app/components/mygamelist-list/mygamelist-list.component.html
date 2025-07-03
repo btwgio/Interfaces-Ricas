@@ -1,0 +1,39 @@
+<div>
+ <p-table [value]="jogos" [paginator]="false" [rows]="10">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Ano</th>
+        <th>Gênero</th>
+        <th>Plataforma</th>
+        <th>Status</th>
+        <th style="width: 120px;">Ações</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-jogo>
+      <tr>
+        <td>{{ jogo.id }}</td>
+        <td>{{ jogo.titulo }}</td>
+        <td>{{ jogo.ano }}</td>
+        <td>{{ jogo.genero }}</td>
+        <td>{{ jogo.plataforma }}</td>
+        <td>
+          <p-tag 
+            [value]="getStatusText(jogo.completado)" 
+            [severity]="getSeverity(jogo.completado)"
+            [icon]="jogo.completado ? 'pi pi-check' : 'pi pi-clock'">
+          </p-tag>
+        </td>
+        <td>
+          <button pButton icon="pi pi-pencil" style="margin-right: .5rem" (click)="editarJogo(jogo.id)" pTooltip="Editar"></button>
+          <button pButton icon="pi pi-trash" severity="danger" (click)="removerJogo(jogo.id)" pTooltip="Remover"></button>
+        </td>
+      </tr>
+    </ng-template>
+    
+  </p-table>
+
+  <p-confirmDialog></p-confirmDialog>
+  
+</div>
