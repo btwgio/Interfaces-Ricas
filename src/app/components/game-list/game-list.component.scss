@@ -1,0 +1,154 @@
+.list-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #333;
+  
+  h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+}
+
+.table-container {
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  
+  ::ng-deep {
+    .p-datatable {
+      background: transparent;
+      
+      .p-datatable-thead > tr > th {
+        background: #2d2d2d;
+        border-bottom: 2px solid #444;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 1rem;
+      }
+      
+      .p-datatable-tbody > tr > td {
+        padding: 1rem;
+        border-bottom: 1px solid #333;
+        vertical-align: middle;
+        background: #1a1a1a;
+        color: #e0e0e0;
+      }
+      
+      .p-datatable-tbody > tr:hover {
+        background: #2a2a2a !important;
+      }
+      
+      .p-datatable-tbody > tr:hover td {
+        background: #2a2a2a !important;
+      }
+    }
+  }
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+  
+  ::ng-deep {
+    .p-button {
+      width: 2.5rem;
+      height: 2.5rem;
+      
+      .p-button-icon {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  
+  .empty-content {
+    text-align: center;
+    padding: 3rem;
+    
+    i {
+      font-size: 4rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+    
+    h3 {
+      margin: 0 0 1rem 0;
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    
+    p {
+      margin: 0 0 2rem 0;
+      color: #aaa;
+      font-size: 1rem;
+      line-height: 1.5;
+      max-width: 400px;
+    }
+  }
+}
+
+// Personalizar botões para tema escuro/roxo - REMOVIDO para usar estilos globais outline
+::ng-deep {
+  // Apenas melhorar aparência dos botões de texto (ação)
+  .p-button.p-button-text {
+    .p-button-icon {
+      color: inherit !important; // Usa a cor definida globalmente
+    }
+    
+    .p-button-label {
+      color: inherit !important; // Usa a cor definida globalmente
+    }
+  }
+  
+  // Personalizar tags de status
+  .p-tag {
+    &.p-tag-success {
+      background-color: #7c3aed !important;
+      color: #ffffff !important;
+    }
+    
+    &.p-tag-secondary {
+      background-color: #4a5568 !important;
+      color: #e2e8f0 !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .list-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

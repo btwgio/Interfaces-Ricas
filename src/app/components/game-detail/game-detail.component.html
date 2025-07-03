@@ -1,0 +1,76 @@
+<div class="card" *ngIf="game">
+  <div class="card-header">
+    <div class="title-section">
+      <h3>{{ game.titulo }}</h3>
+      <p-tag 
+        [value]="getStatusText(game.completado)" 
+        [severity]="getSeverity(game.completado)"
+        class="status-tag"
+      ></p-tag>
+    </div>
+    <p-button 
+      icon="pi pi-times" 
+      styleClass="p-button-text p-button-plain"
+      (click)="onClose()"
+      pTooltip="Fechar"
+    ></p-button>
+  </div>
+  
+  <div class="game-details">
+    <div class="detail-row">
+      <label>ID:</label>
+      <span>{{ game.id }}</span>
+    </div>
+    
+    <div class="detail-row">
+      <label>Título:</label>
+      <span>{{ game.titulo }}</span>
+    </div>
+    
+    <div class="detail-row">
+      <label>Ano de Lançamento:</label>
+      <span>{{ game.ano }}</span>
+    </div>
+    
+    <div class="detail-row">
+      <label>Gênero:</label>
+      <span>{{ game.genero }}</span>
+    </div>
+    
+    <div class="detail-row">
+      <label>Plataforma:</label>
+      <span>{{ game.plataforma }}</span>
+    </div>
+    
+    <div class="detail-row">
+      <label>Status:</label>
+      <p-tag 
+        [value]="getStatusText(game.completado)" 
+        [severity]="getSeverity(game.completado)"
+      ></p-tag>
+    </div>
+  </div>
+
+  <div class="actions">
+    <p-button 
+      label="Editar" 
+      icon="pi pi-pencil"
+      styleClass="p-button-info"
+      (click)="onEdit()"
+    ></p-button>
+    
+    <p-button 
+      label="Excluir" 
+      icon="pi pi-trash"
+      styleClass="p-button-danger"
+      (click)="onDelete()"
+    ></p-button>
+  </div>
+</div>
+
+<div class="card" *ngIf="!game">
+  <div class="no-game-message">
+    <i class="pi pi-info-circle"></i>
+    <p>Selecione um jogo da lista para ver os detalhes.</p>
+  </div>
+</div>

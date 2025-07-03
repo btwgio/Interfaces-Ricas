@@ -1,0 +1,99 @@
+.card {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: #1a1a1a;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+  
+  .title-section {
+    flex: 1;
+    
+    h3 {
+      margin: 0 0 0.5rem 0;
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+    
+    .status-tag {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+.game-details {
+  margin-bottom: 2rem;
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #333;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    label {
+      font-weight: 600;
+      color: #e0e0e0;
+      min-width: 140px;
+    }
+    
+    span {
+      color: #ffffff;
+      flex: 1;
+      text-align: right;
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+}
+
+.no-game-message {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #aaa;
+  
+  i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+}
+
+::ng-deep {
+  .p-tag {
+    &.p-tag-success {
+      background-color: #7c3aed !important;
+      color: #ffffff !important;
+    }
+    
+    &.p-tag-secondary {
+      background-color: #4a5568 !important;
+      color: #e2e8f0 !important;
+    }
+  }
+}

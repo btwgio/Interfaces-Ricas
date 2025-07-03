@@ -1,0 +1,39 @@
+<div class="game-manager-container">
+  <!-- Lista de Jogos -->
+  <app-game-list 
+    *ngIf="currentView === 'list'"
+    [games]="games"
+    (gameSelected)="onGameSelected($event)"
+    (editRequested)="onEditRequested($event)"
+    (deleteRequested)="onDeleteRequested($event)"
+    (addNewRequested)="onAddNewRequested()"
+  ></app-game-list>
+
+  <!-- Inserir Novo Jogo -->
+  <app-game-insert 
+    *ngIf="currentView === 'insert'"
+    (gameAdded)="onGameAdded($event)"
+    (cancelled)="onInsertCancelled()"
+  ></app-game-insert>
+
+  <!-- Atualizar Jogo -->
+  <app-game-update 
+    *ngIf="currentView === 'update'"
+    [game]="selectedGame"
+    (gameUpdated)="onGameUpdated($event)"
+    (cancelled)="onUpdateCancelled()"
+  ></app-game-update>
+
+  <!-- Detalhes do Jogo -->
+  <app-game-detail 
+    *ngIf="currentView === 'detail'"
+    [game]="selectedGame"
+    (editRequested)="onDetailEditRequested($event)"
+    (deleteRequested)="onDetailDeleteRequested($event)"
+    (closed)="onDetailClosed()"
+  ></app-game-detail>
+
+  <!-- Diálogos de Confirmação e Toast -->
+  <p-confirmDialog></p-confirmDialog>
+  <p-toast></p-toast>
+</div>
