@@ -1,0 +1,83 @@
+<div class="list-container">
+  <div class="list-header">
+    <h2>Minha Lista de Jogos</h2>
+    <p-button 
+      label="Adicionar Jogo" 
+      icon="pi pi-plus" 
+      (click)="onAddNew()"
+      styleClass="p-button-success"
+    ></p-button>
+  </div>
+
+  <div class="table-container" *ngIf="games.length > 0">
+    <p-table [value]="games" styleClass="p-datatable-sm">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>ID</th>
+          <th>Título</th>
+          <th>Ano</th>
+          <th>Gênero</th>
+          <th>Plataforma</th>
+          <th>Status</th>
+          <th>Ações</th>
+        </tr>
+      </ng-template>
+      
+      <ng-template pTemplate="body" let-game>
+        <tr>
+          <td>{{ game.id }}</td>
+          <td>
+            <strong>{{ game.titulo }}</strong>
+          </td>
+          <td>{{ game.ano }}</td>
+          <td>{{ game.genero }}</td>
+          <td>{{ game.plataforma }}</td>
+          <td>
+            <p-tag 
+              [value]="getStatusText(game.completado)" 
+              [severity]="getSeverity(game.completado)"
+            ></p-tag>
+          </td>
+          <td>
+            <div class="action-buttons">
+              <p-button 
+                icon="pi pi-eye" 
+                pTooltip="Ver detalhes"
+                styleClass="p-button-text p-button-info"
+                (click)="onViewDetails(game)"
+              ></p-button>
+              
+              <p-button 
+                icon="pi pi-pencil" 
+                pTooltip="Editar"
+                styleClass="p-button-text p-button-warning"
+                (click)="onEdit(game)"
+              ></p-button>
+              
+              <p-button 
+                icon="pi pi-trash" 
+                pTooltip="Excluir"
+                styleClass="p-button-text p-button-danger"
+                (click)="onDelete(game)"
+              ></p-button>
+            </div>
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+
+  <div class="empty-state" *ngIf="games.length === 0">
+    <div class="empty-content">
+      <i class="pi pi-gamepad-2"></i>
+      <h3>Nenhum jogo encontrado</h3>
+      <p>Sua lista de jogos está vazia. Adicione o primeiro jogo clicando no botão abaixo.</p>
+      <p-button 
+        label="Adicionar Primeiro Jogo" 
+        icon="pi pi-plus" 
+        (click)="onAddNew()"
+        styleClass="p-button-success"
+      ></p-button>
+    </div>
+  </div>
+</div>

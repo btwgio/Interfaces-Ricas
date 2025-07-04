@@ -1,37 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { MenubarModule } from 'primeng/menubar';
+import { GameManagerComponent } from './components/game-manager/game-manager.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, MenubarModule],
+  imports: [GameManagerComponent],
   template: `
     <div class="header">
       <h1>
-         MyGameList Angular
-        <img class="gamepad" src="https://cdn-icons-png.flaticon.com/512/686/686589.png" alt="Gamepad">
+         Minha Biblioteca de Jogos ✨🎮
+        <!-- <img class="gamepad" src="https://cdn-icons-png.flaticon.com/512/686/686589.png" alt="Gamepad"> -->
       </h1>
-      <p class="subtitle">Gerencie sua biblioteca de jogos</p>
+      <p class="subtitle"><b>Do clássico ao lançamento — seus jogos, sua lista, seu jeito.</b></p>
     </div>
-    <p-menubar [model]="items" class="custom-menubar"></p-menubar>
     <div class="content">
-      <router-outlet></router-outlet>
+      <app-game-manager></app-game-manager>
     </div>
   `,
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  items = [
-    {
-      label: 'Lista de Jogos',
-      icon: 'pi pi-list',
-      routerLink: '/lista'
-    },
-    {
-      label: 'Adicionar Jogo',
-      icon: 'pi pi-plus',
-      routerLink: '/novo'
-    }
-  ];
-}
+export class AppComponent {}

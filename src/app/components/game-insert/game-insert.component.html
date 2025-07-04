@@ -1,0 +1,90 @@
+<div class="card">
+  <div class="card-header">
+    <h3>Adicionar Novo Jogo</h3>
+  </div>
+  
+  <form [formGroup]="jogoForm" (ngSubmit)="onSubmit()">
+    <div class="p-field">
+      <label for="titulo">Título*</label>
+      <input 
+        pInputText 
+        id="titulo" 
+        formControlName="titulo" 
+        placeholder="Digite o título do jogo"
+        [class.ng-invalid]="isFieldInvalid('titulo')"
+      />
+      <small *ngIf="isFieldInvalid('titulo')" class="p-error">
+        Título é obrigatório
+      </small>
+    </div>
+
+    <div class="p-field">
+      <label for="ano">Ano*</label>
+      <input 
+        pInputText 
+        id="ano" 
+        type="number"
+        formControlName="ano" 
+        placeholder="Digite o ano de lançamento"
+        [class.ng-invalid]="isFieldInvalid('ano')"
+      />
+      <small *ngIf="isFieldInvalid('ano')" class="p-error">
+        Ano é obrigatório
+      </small>
+    </div>
+
+    <div class="p-field">
+      <label for="genero">Gênero*</label>
+      <input 
+        pInputText 
+        id="genero" 
+        formControlName="genero" 
+        placeholder="Digite o gênero do jogo"
+        [class.ng-invalid]="isFieldInvalid('genero')"
+      />
+      <small *ngIf="isFieldInvalid('genero')" class="p-error">
+        Gênero é obrigatório
+      </small>
+    </div>
+
+    <div class="p-field">
+      <label for="plataforma">Plataforma*</label>
+      <input 
+        pInputText 
+        id="plataforma" 
+        formControlName="plataforma" 
+        placeholder="Digite a plataforma"
+        [class.ng-invalid]="isFieldInvalid('plataforma')"
+      />
+      <small *ngIf="isFieldInvalid('plataforma')" class="p-error">
+        Plataforma é obrigatória
+      </small>
+    </div>
+
+    <div class="p-field-checkbox">
+      <p-checkbox 
+        formControlName="completado" 
+        inputId="completado"
+        [binary]="true"
+      ></p-checkbox>
+      <label for="completado">Jogo completado</label>
+    </div>
+
+    <div class="form-actions">
+      <p-button 
+        type="submit" 
+        label="Adicionar" 
+        icon="pi pi-plus"
+        [disabled]="jogoForm.invalid"
+      ></p-button>
+      
+      <p-button 
+        type="button" 
+        label="Cancelar" 
+        icon="pi pi-times"
+        styleClass="p-button-secondary"
+        (click)="onCancel()"
+      ></p-button>
+    </div>
+  </form>
+</div>

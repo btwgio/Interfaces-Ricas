@@ -1,0 +1,170 @@
+body {
+  background: #0f0f0f;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d1b4e 50%, #2d2d2d 100%);
+  color: #ffffff;
+  padding: 4rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(76, 29, 149, 0.3);
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    .gamepad {
+      width: 50px;
+      height: 50px;
+      filter: brightness(0) invert(1);
+      animation: bounce 2s infinite;
+    }
+  }
+
+  .subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    font-weight: 300;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+.custom-menubar {
+  border: none;
+  border-radius: 0;
+  background: #232526;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+:host ::ng-deep {
+  .custom-menubar {
+    .p-menubar-root-list {
+      .p-menuitem {
+        .p-menuitem-link {
+          padding: 1rem 1.5rem;
+          font-weight: 500;
+          color: #fff;
+          background: transparent;
+          transition: all 0.3s;
+          border-radius: 4px;
+
+          &:hover {
+            background: #333;
+            color: #00bcd4;
+          }
+
+          .p-menuitem-icon {
+            margin-right: 0.5rem;
+            color: #00bcd4;
+          }
+        }
+      }
+    }
+  }
+
+  // Estilos globais para botões do tema roxo/escuro
+  // Botão de adicionar/salvar (success -> roxo)
+  .p-button.p-button-success {
+    background-color: #7c3aed !important;
+    border-color: #7c3aed !important;
+    
+    &:hover {
+      background-color: #6d28d9 !important;
+      border-color: #6d28d9 !important;
+    }
+  }
+  
+  // Botão de editar (warning -> roxo claro)  
+  .p-button.p-button-warning {
+    background-color: #a855f7 !important;
+    border-color: #a855f7 !important;
+    
+    &:hover {
+      background-color: #9333ea !important;
+      border-color: #9333ea !important;
+    }
+  }
+  
+  // Botão de visualizar (info -> roxo médio)
+  .p-button.p-button-info {
+    background-color: #8b5cf6 !important;
+    border-color: #8b5cf6 !important;
+    
+    &:hover {
+      background-color: #7c3aed !important;
+      border-color: #7c3aed !important;
+    }
+  }
+  
+  // Botão de excluir (danger -> vermelho escuro)
+  .p-button.p-button-danger {
+    background-color: #dc2626 !important;
+    border-color: #dc2626 !important;
+    
+    &:hover {
+      background-color: #b91c1c !important;
+      border-color: #b91c1c !important;
+    }
+  }
+  
+  // Botão secundário/cancelar
+  .p-button.p-button-secondary {
+    background-color: #4a5568 !important;
+    border-color: #4a5568 !important;
+    color: #ffffff !important;
+    
+    &:hover {
+      background-color: #2d3748 !important;
+      border-color: #2d3748 !important;
+    }
+  }
+  
+  // Botões de texto
+  .p-button.p-button-text {
+    &.p-button-info {
+      color: #8b5cf6 !important;
+      &:hover {
+        background-color: rgba(139, 92, 246, 0.1) !important;
+      }
+    }
+    
+    &.p-button-warning {
+      color: #a855f7 !important;
+      &:hover {
+        background-color: rgba(168, 85, 247, 0.1) !important;
+      }
+    }
+    
+    &.p-button-danger {
+      color: #dc2626 !important;
+      &:hover {
+        background-color: rgba(220, 38, 38, 0.1) !important;
+      }
+    }
+    
+    &.p-button-plain {
+      color: #9ca3af !important;
+      &:hover {
+        background-color: rgba(156, 163, 175, 0.1) !important;
+      }
+    }
+  }
+  
+.content {
+  min-height: calc(100vh - 200px);
+  padding: 2rem 0.5rem;
+  background: #0f0f0f;
+  color: #e0e0e0;
+}
