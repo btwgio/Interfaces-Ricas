@@ -59,16 +59,7 @@ export class GameManagerComponent implements OnInit {
   }
 
   onDeleteRequested(game: MyGameList) {
-    this.confirmationService.confirm({
-      message: `Tem certeza que deseja remover o jogo "${game.titulo}"?`,
-      header: 'Confirmação de Exclusão',
-      icon: 'pi pi-exclamation-triangle',
-      acceptLabel: 'Sim',
-      rejectLabel: 'Não',
-      accept: () => {
-        this.deleteGame(game.id);
-      }
-    });
+    this.deleteGame(game.id);
   }
 
   onAddNewRequested() {
