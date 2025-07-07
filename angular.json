@@ -101,7 +101,9 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/Interfaces-Ricas/"
+            "baseHref": "/Interfaces-Ricas/",
+            "dir": "dist/temp",
+            "nojekyll": true
           }
         }
       }
