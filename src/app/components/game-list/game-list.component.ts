@@ -33,10 +33,7 @@ export class GameListComponent {
   }
 
   onDelete(game: MyGameList) {
-    const confirmacao = confirm(`Tem certeza que deseja excluir o jogo "${game.titulo}"?`);
-    if (confirmacao) {
-      this.deleteRequested.emit(game);
-    }
+    this.deleteRequested.emit(game);
   }
 
   onAddNew() {
