@@ -1,0 +1,2404 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "titulo": "Super Mario World",
+      "ano": 1990,
+      "genero": "Plataforma",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+World"
+    },
+    {
+      "id": 2,
+      "titulo": "Sonic the Hedgehog",
+      "ano": 1991,
+      "genero": "Plataforma",
+      "plataforma": "Mega Drive",
+      "thumbnail": "https://via.placeholder.com/300x400/0066FF/FFFFFF?text=Sonic+the+Hedgehog"
+    },
+    {
+      "id": 3,
+      "titulo": "Street Fighter II",
+      "ano": 1991,
+      "genero": "Luta",
+      "plataforma": "Arcade",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Street+Fighter+II"
+    },
+    {
+      "id": 4,
+      "titulo": "The Legend of Zelda: A Link to the Past",
+      "ano": 1991,
+      "genero": "Aventura",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Zelda+Link+Past"
+    },
+    {
+      "id": 5,
+      "titulo": "Final Fantasy IV",
+      "ano": 1991,
+      "genero": "RPG",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Final+Fantasy+IV"
+    },
+    {
+      "id": 6,
+      "titulo": "Civilization",
+      "ano": 1991,
+      "genero": "Estratégia",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/4169E1/FFFFFF?text=Civilization"
+    },
+    {
+      "id": 7,
+      "titulo": "Mortal Kombat",
+      "ano": 1992,
+      "genero": "Luta",
+      "plataforma": "Arcade",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Mortal+Kombat"
+    },
+    {
+      "id": 8,
+      "titulo": "Wolfenstein 3D",
+      "ano": 1992,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Wolfenstein+3D"
+    },
+    {
+      "id": 9,
+      "titulo": "Super Mario Kart",
+      "ano": 1992,
+      "genero": "Corrida",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Super+Mario+Kart"
+    },
+    {
+      "id": 10,
+      "titulo": "Dune II",
+      "ano": 1992,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Dune+II"
+    },
+    {
+      "id": 11,
+      "titulo": "Doom",
+      "ano": 1993,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Doom"
+    },
+    {
+      "id": 12,
+      "titulo": "Secret of Mana",
+      "ano": 1993,
+      "genero": "RPG",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Secret+of+Mana"
+    },
+    {
+      "id": 13,
+      "titulo": "Myst",
+      "ano": 1993,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Myst"
+    },
+    {
+      "id": 14,
+      "titulo": "NBA Jam",
+      "ano": 1993,
+      "genero": "Esportes",
+      "plataforma": "Arcade",
+      "thumbnail": "https://via.placeholder.com/300x400/32CD32/000000?text=NBA+Jam"
+    },
+    {
+      "id": 15,
+      "titulo": "Donkey Kong Country",
+      "ano": 1994,
+      "genero": "Plataforma",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Donkey+Kong+Country"
+    },
+    {
+      "id": 16,
+      "titulo": "Final Fantasy VI",
+      "ano": 1994,
+      "genero": "RPG",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Final+Fantasy+VI"
+    },
+    {
+      "id": 17,
+      "titulo": "Super Metroid",
+      "ano": 1994,
+      "genero": "Metroidvania",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/8A2BE2/FFFFFF?text=Super+Metroid"
+    },
+    {
+      "id": 18,
+      "titulo": "Warcraft",
+      "ano": 1994,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Warcraft"
+    },
+    {
+      "id": 19,
+      "titulo": "Earthbound",
+      "ano": 1994,
+      "genero": "RPG",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Earthbound"
+    },
+    {
+      "id": 20,
+      "titulo": "Chrono Trigger",
+      "ano": 1995,
+      "genero": "RPG",
+      "plataforma": "SNES",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Chrono+Trigger"
+    },
+    {
+      "id": 21,
+      "titulo": "Doom II",
+      "ano": 1994,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Doom+II"
+    },
+    {
+      "id": 22,
+      "titulo": "Command & Conquer",
+      "ano": 1995,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Command+Conquer"
+    },
+    {
+      "id": 23,
+      "titulo": "Rayman",
+      "ano": 1995,
+      "genero": "Plataforma",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Rayman"
+    },
+    {
+      "id": 24,
+      "titulo": "Tekken",
+      "ano": 1995,
+      "genero": "Luta",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Tekken"
+    },
+    {
+      "id": 25,
+      "titulo": "Quake",
+      "ano": 1996,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Quake"
+    },
+    {
+      "id": 26,
+      "titulo": "Super Mario 64",
+      "ano": 1996,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo 64",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+64"
+    },
+    {
+      "id": 27,
+      "titulo": "Tomb Raider",
+      "ano": 1996,
+      "genero": "Aventura",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Tomb+Raider"
+    },
+    {
+      "id": 28,
+      "titulo": "Resident Evil",
+      "ano": 1996,
+      "genero": "Survival Horror",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Resident+Evil"
+    },
+    {
+      "id": 29,
+      "titulo": "Diablo",
+      "ano": 1996,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Diablo"
+    },
+    {
+      "id": 30,
+      "titulo": "Crash Bandicoot",
+      "ano": 1996,
+      "genero": "Plataforma",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Crash+Bandicoot"
+    },
+    {
+      "id": 31,
+      "titulo": "Final Fantasy VII",
+      "ano": 1997,
+      "genero": "RPG",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Final+Fantasy+VII"
+    },
+    {
+      "id": 32,
+      "titulo": "GoldenEye 007",
+      "ano": 1997,
+      "genero": "FPS",
+      "plataforma": "Nintendo 64",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=GoldenEye+007"
+    },
+    {
+      "id": 33,
+      "titulo": "Castlevania: Symphony of the Night",
+      "ano": 1997,
+      "genero": "Metroidvania",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/8A2BE2/FFFFFF?text=Castlevania+Symphony+of+the+Night"
+    },
+    {
+      "id": 34,
+      "titulo": "StarCraft",
+      "ano": 1998,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=StarCraft"
+    },
+    {
+      "id": 35,
+      "titulo": "The Legend of Zelda: Ocarina of Time",
+      "ano": 1998,
+      "genero": "Aventura",
+      "plataforma": "Nintendo 64",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+Ocarina+of+Time"
+    },
+    {
+      "id": 36,
+      "titulo": "Half-Life",
+      "ano": 1998,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=HalfLife"
+    },
+    {
+      "id": 37,
+      "titulo": "Metal Gear Solid",
+      "ano": 1998,
+      "genero": "Stealth",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/696969/FFFFFF?text=Metal+Gear+Solid"
+    },
+    {
+      "id": 38,
+      "titulo": "Spyro the Dragon",
+      "ano": 1998,
+      "genero": "Plataforma",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Spyro+the+Dragon"
+    },
+    {
+      "id": 39,
+      "titulo": "Gran Turismo",
+      "ano": 1997,
+      "genero": "Corrida",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Gran+Turismo"
+    },
+    {
+      "id": 40,
+      "titulo": "Age of Empires",
+      "ano": 1997,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Age+of+Empires"
+    },
+    {
+      "id": 41,
+      "titulo": "Counter-Strike",
+      "ano": 1999,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=CounterStrike"
+    },
+    {
+      "id": 42,
+      "titulo": "Super Smash Bros.",
+      "ano": 1999,
+      "genero": "Luta",
+      "plataforma": "Nintendo 64",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Super+Smash+Bros"
+    },
+    {
+      "id": 43,
+      "titulo": "Silent Hill",
+      "ano": 1999,
+      "genero": "Survival Horror",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Silent+Hill"
+    },
+    {
+      "id": 44,
+      "titulo": "System Shock 2",
+      "ano": 1999,
+      "genero": "FPS/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=System+Shock+2"
+    },
+    {
+      "id": 45,
+      "titulo": "Tony Hawk's Pro Skater",
+      "ano": 1999,
+      "genero": "Esportes",
+      "plataforma": "PlayStation",
+      "thumbnail": "https://via.placeholder.com/300x400/32CD32/000000?text=Tony+Hawks+Pro+Skater"
+    },
+    {
+      "id": 46,
+      "titulo": "The Sims",
+      "ano": 2000,
+      "genero": "Simulação",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/9370DB/FFFFFF?text=The+Sims"
+    },
+    {
+      "id": 47,
+      "titulo": "Deus Ex",
+      "ano": 2000,
+      "genero": "FPS/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Deus+Ex"
+    },
+    {
+      "id": 48,
+      "titulo": "Diablo II",
+      "ano": 2000,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Diablo+II"
+    },
+    {
+      "id": 49,
+      "titulo": "The Legend of Zelda: Majora's Mask",
+      "ano": 2000,
+      "genero": "Aventura",
+      "plataforma": "Nintendo 64",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+Majoras+Mask"
+    },
+    {
+      "id": 50,
+      "titulo": "Perfect Dark",
+      "ano": 2000,
+      "genero": "FPS",
+      "plataforma": "Nintendo 64",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Perfect+Dark"
+    },
+    {
+      "id": 51,
+      "titulo": "Grand Theft Auto: Vice City",
+      "ano": 2002,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Grand+Theft+Auto+Vice+City"
+    },
+    {
+      "id": 52,
+      "titulo": "Halo: Combat Evolved",
+      "ano": 2001,
+      "genero": "FPS",
+      "plataforma": "Xbox",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Halo+Combat+Evolved"
+    },
+    {
+      "id": 53,
+      "titulo": "Grand Theft Auto III",
+      "ano": 2001,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Grand+Theft+Auto+III"
+    },
+    {
+      "id": 54,
+      "titulo": "Super Smash Bros. Melee",
+      "ano": 2001,
+      "genero": "Luta",
+      "plataforma": "GameCube",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Super+Smash+Bros+Melee"
+    },
+    {
+      "id": 55,
+      "titulo": "Final Fantasy X",
+      "ano": 2001,
+      "genero": "RPG",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Final+Fantasy+X"
+    },
+    {
+      "id": 56,
+      "titulo": "Medal of Honor: Allied Assault",
+      "ano": 2002,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Medal+of+Honor+Allied+Assault"
+    },
+    {
+      "id": 57,
+      "titulo": "Metroid Prime",
+      "ano": 2002,
+      "genero": "FPS/Aventura",
+      "plataforma": "GameCube",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Metroid+Prime"
+    },
+    {
+      "id": 58,
+      "titulo": "The Elder Scrolls III: Morrowind",
+      "ano": 2002,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=The+Elder+Scrolls+III+Morrowind"
+    },
+    {
+      "id": 59,
+      "titulo": "Warcraft III",
+      "ano": 2002,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Warcraft+III"
+    },
+    {
+      "id": 60,
+      "titulo": "Splinter Cell",
+      "ano": 2002,
+      "genero": "Stealth",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/696969/FFFFFF?text=Splinter+Cell"
+    },
+    {
+      "id": 61,
+      "titulo": "Prince of Persia: The Sands of Time",
+      "ano": 2003,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Prince+of+Persia+The+Sands+of+Time"
+    },
+    {
+      "id": 62,
+      "titulo": "Call of Duty",
+      "ano": 2003,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty"
+    },
+    {
+      "id": 63,
+      "titulo": "Star Wars: Knights of the Old Republic",
+      "ano": 2003,
+      "genero": "RPG",
+      "plataforma": "Xbox",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Star+Wars+Knights+of+the+Old+Republic"
+    },
+    {
+      "id": 64,
+      "titulo": "Beyond Good & Evil",
+      "ano": 2003,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Beyond+Good+Evil"
+    },
+    {
+      "id": 65,
+      "titulo": "The Legend of Zelda: The Wind Waker",
+      "ano": 2002,
+      "genero": "Aventura",
+      "plataforma": "GameCube",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+The+Wind+Waker"
+    },
+    {
+      "id": 66,
+      "titulo": "Half-Life 2",
+      "ano": 2004,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=HalfLife+2"
+    },
+    {
+      "id": 67,
+      "titulo": "World of Warcraft",
+      "ano": 2004,
+      "genero": "MMORPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/4B0082/FFFFFF?text=World+of+Warcraft"
+    },
+    {
+      "id": 68,
+      "titulo": "Grand Theft Auto: San Andreas",
+      "ano": 2004,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Grand+Theft+Auto+San+Andreas"
+    },
+    {
+      "id": 69,
+      "titulo": "Halo 2",
+      "ano": 2004,
+      "genero": "FPS",
+      "plataforma": "Xbox",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Halo+2"
+    },
+    {
+      "id": 70,
+      "titulo": "Doom 3",
+      "ano": 2004,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Doom+3"
+    },
+    {
+      "id": 71,
+      "titulo": "Far Cry",
+      "ano": 2004,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Far+Cry"
+    },
+    {
+      "id": 72,
+      "titulo": "Metal Gear Solid 3: Snake Eater",
+      "ano": 2004,
+      "genero": "Stealth",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/696969/FFFFFF?text=Metal+Gear+Solid+3+Snake+Eater"
+    },
+    {
+      "id": 73,
+      "titulo": "Shadow of the Colossus",
+      "ano": 2005,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Shadow+of+the+Colossus"
+    },
+    {
+      "id": 74,
+      "titulo": "God of War",
+      "ano": 2005,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=God+of+War"
+    },
+    {
+      "id": 75,
+      "titulo": "Guitar Hero",
+      "ano": 2005,
+      "genero": "Musical",
+      "plataforma": "PlayStation 2",
+      "thumbnail": "https://via.placeholder.com/300x400/FF69B4/FFFFFF?text=Guitar+Hero"
+    },
+    {
+      "id": 76,
+      "titulo": "Civilization IV",
+      "ano": 2005,
+      "genero": "Estratégia",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/4169E1/FFFFFF?text=Civilization+IV"
+    },
+    {
+      "id": 77,
+      "titulo": "F.E.A.R.",
+      "ano": 2005,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=FEAR"
+    },
+    {
+      "id": 78,
+      "titulo": "The Elder Scrolls IV: Oblivion",
+      "ano": 2006,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=The+Elder+Scrolls+IV+Oblivion"
+    },
+    {
+      "id": 79,
+      "titulo": "Gears of War",
+      "ano": 2006,
+      "genero": "TPS",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/B22222/FFFFFF?text=Gears+of+War"
+    },
+    {
+      "id": 80,
+      "titulo": "Wii Sports",
+      "ano": 2006,
+      "genero": "Esportes",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/32CD32/000000?text=Wii+Sports"
+    },
+    {
+      "id": 81,
+      "titulo": "Dead Rising",
+      "ano": 2006,
+      "genero": "Ação",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=Dead+Rising"
+    },
+    {
+      "id": 82,
+      "titulo": "Company of Heroes",
+      "ano": 2006,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Company+of+Heroes"
+    },
+    {
+      "id": 83,
+      "titulo": "BioShock",
+      "ano": 2007,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=BioShock"
+    },
+    {
+      "id": 84,
+      "titulo": "The Orange Box",
+      "ano": 2007,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=The+Orange+Box"
+    },
+    {
+      "id": 85,
+      "titulo": "Call of Duty 4: Modern Warfare",
+      "ano": 2007,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+4+Modern+Warfare"
+    },
+    {
+      "id": 86,
+      "titulo": "Super Mario Galaxy",
+      "ano": 2007,
+      "genero": "Plataforma",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+Galaxy"
+    },
+    {
+      "id": 87,
+      "titulo": "Assassin's Creed",
+      "ano": 2007,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Assassins+Creed"
+    },
+    {
+      "id": 88,
+      "titulo": "Mass Effect",
+      "ano": 2007,
+      "genero": "RPG",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Mass+Effect"
+    },
+    {
+      "id": 89,
+      "titulo": "Rock Band",
+      "ano": 2007,
+      "genero": "Musical",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/FF69B4/FFFFFF?text=Rock+Band"
+    },
+    {
+      "id": 90,
+      "titulo": "Crysis",
+      "ano": 2007,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Crysis"
+    },
+    {
+      "id": 91,
+      "titulo": "Grand Theft Auto IV",
+      "ano": 2008,
+      "genero": "Ação/Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Grand+Theft+Auto+IV"
+    },
+    {
+      "id": 92,
+      "titulo": "Dead Space",
+      "ano": 2008,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Dead+Space"
+    },
+    {
+      "id": 93,
+      "titulo": "Fallout 3",
+      "ano": 2008,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Fallout+3"
+    },
+    {
+      "id": 94,
+      "titulo": "Left 4 Dead",
+      "ano": 2008,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Left+4+Dead"
+    },
+    {
+      "id": 95,
+      "titulo": "Mirror's Edge",
+      "ano": 2008,
+      "genero": "Plataforma",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Mirrors+Edge"
+    },
+    {
+      "id": 96,
+      "titulo": "Super Smash Bros. Brawl",
+      "ano": 2008,
+      "genero": "Luta",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Super+Smash+Bros+Brawl"
+    },
+    {
+      "id": 97,
+      "titulo": "Mario Kart Wii",
+      "ano": 2008,
+      "genero": "Corrida",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Mario+Kart+Wii"
+    },
+    {
+      "id": 98,
+      "titulo": "LittleBigPlanet",
+      "ano": 2008,
+      "genero": "Plataforma",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=LittleBigPlanet"
+    },
+    {
+      "id": 99,
+      "titulo": "Uncharted 2: Among Thieves",
+      "ano": 2009,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Uncharted+2+Among+Thieves"
+    },
+    {
+      "id": 100,
+      "titulo": "Batman: Arkham Asylum",
+      "ano": 2009,
+      "genero": "Ação/Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Batman+Arkham+Asylum"
+    },
+    {
+      "id": 101,
+      "titulo": "Call of Duty: Modern Warfare 2",
+      "ano": 2009,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Modern+Warfare+2"
+    },
+    {
+      "id": 102,
+      "titulo": "Dragon Age: Origins",
+      "ano": 2009,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Dragon+Age+Origins"
+    },
+    {
+      "id": 103,
+      "titulo": "Borderlands",
+      "ano": 2009,
+      "genero": "FPS/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Borderlands"
+    },
+    {
+      "id": 104,
+      "titulo": "League of Legends",
+      "ano": 2009,
+      "genero": "MOBA",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/1E90FF/FFFFFF?text=League+of+Legends"
+    },
+    {
+      "id": 105,
+      "titulo": "Minecraft",
+      "ano": 2009,
+      "genero": "Sandbox",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/D2691E/FFFFFF?text=Minecraft"
+    },
+    {
+      "id": 106,
+      "titulo": "Assassin's Creed II",
+      "ano": 2009,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Assassins+Creed+II"
+    },
+    {
+      "id": 107,
+      "titulo": "New Super Mario Bros. Wii",
+      "ano": 2009,
+      "genero": "Plataforma",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=New+Super+Mario+Bros+Wii"
+    },
+    {
+      "id": 108,
+      "titulo": "Red Dead Redemption",
+      "ano": 2010,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Red+Dead+Redemption"
+    },
+    {
+      "id": 109,
+      "titulo": "Mass Effect 2",
+      "ano": 2010,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Mass+Effect+2"
+    },
+    {
+      "id": 110,
+      "titulo": "Heavy Rain",
+      "ano": 2010,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Heavy+Rain"
+    },
+    {
+      "id": 111,
+      "titulo": "God of War III",
+      "ano": 2010,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=God+of+War+III"
+    },
+    {
+      "id": 112,
+      "titulo": "Super Mario Galaxy 2",
+      "ano": 2010,
+      "genero": "Plataforma",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+Galaxy+2"
+    },
+    {
+      "id": 113,
+      "titulo": "Halo: Reach",
+      "ano": 2010,
+      "genero": "FPS",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Halo+Reach"
+    },
+    {
+      "id": 114,
+      "titulo": "Call of Duty: Black Ops",
+      "ano": 2010,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Black+Ops"
+    },
+    {
+      "id": 115,
+      "titulo": "StarCraft II",
+      "ano": 2010,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=StarCraft+II"
+    },
+    {
+      "id": 116,
+      "titulo": "BioShock Infinite",
+      "ano": 2013,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=BioShock+Infinite"
+    },
+    {
+      "id": 117,
+      "titulo": "The Elder Scrolls V: Skyrim",
+      "ano": 2011,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=The+Elder+Scrolls+V+Skyrim"
+    },
+    {
+      "id": 118,
+      "titulo": "Portal 2",
+      "ano": 2011,
+      "genero": "Puzzle",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/20B2AA/FFFFFF?text=Portal+2"
+    },
+    {
+      "id": 119,
+      "titulo": "Batman: Arkham City",
+      "ano": 2011,
+      "genero": "Ação/Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Batman+Arkham+City"
+    },
+    {
+      "id": 120,
+      "titulo": "Uncharted 3: Drake's Deception",
+      "ano": 2011,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Uncharted+3+Drakes+Deception"
+    },
+    {
+      "id": 121,
+      "titulo": "Dead Space 2",
+      "ano": 2011,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Dead+Space+2"
+    },
+    {
+      "id": 122,
+      "titulo": "The Legend of Zelda: Skyward Sword",
+      "ano": 2011,
+      "genero": "Aventura",
+      "plataforma": "Wii",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+Skyward+Sword"
+    },
+    {
+      "id": 123,
+      "titulo": "Dark Souls",
+      "ano": 2011,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Dark+Souls"
+    },
+    {
+      "id": 124,
+      "titulo": "Gears of War 3",
+      "ano": 2011,
+      "genero": "TPS",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/B22222/FFFFFF?text=Gears+of+War+3"
+    },
+    {
+      "id": 125,
+      "titulo": "Call of Duty: Modern Warfare 3",
+      "ano": 2011,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Modern+Warfare+3"
+    },
+    {
+      "id": 126,
+      "titulo": "Mario Kart 7",
+      "ano": 2011,
+      "genero": "Corrida",
+      "plataforma": "Nintendo 3DS",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Mario+Kart+7"
+    },
+    {
+      "id": 127,
+      "titulo": "Super Mario 3D Land",
+      "ano": 2011,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo 3DS",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+3D+Land"
+    },
+    {
+      "id": 128,
+      "titulo": "Journey",
+      "ano": 2012,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Journey"
+    },
+    {
+      "id": 129,
+      "titulo": "Mass Effect 3",
+      "ano": 2012,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Mass+Effect+3"
+    },
+    {
+      "id": 130,
+      "titulo": "Diablo III",
+      "ano": 2012,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Diablo+III"
+    },
+    {
+      "id": 131,
+      "titulo": "Borderlands 2",
+      "ano": 2012,
+      "genero": "FPS/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Borderlands+2"
+    },
+    {
+      "id": 132,
+      "titulo": "Halo 4",
+      "ano": 2012,
+      "genero": "FPS",
+      "plataforma": "Xbox 360",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Halo+4"
+    },
+    {
+      "id": 133,
+      "titulo": "Call of Duty: Black Ops II",
+      "ano": 2012,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Black+Ops+II"
+    },
+    {
+      "id": 134,
+      "titulo": "Far Cry 3",
+      "ano": 2012,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Far+Cry+3"
+    },
+    {
+      "id": 135,
+      "titulo": "Dishonored",
+      "ano": 2012,
+      "genero": "Stealth",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/696969/FFFFFF?text=Dishonored"
+    },
+    {
+      "id": 136,
+      "titulo": "XCOM: Enemy Unknown",
+      "ano": 2012,
+      "genero": "Estratégia",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/4169E1/FFFFFF?text=XCOM+Enemy+Unknown"
+    },
+    {
+      "id": 137,
+      "titulo": "New Super Mario Bros. U",
+      "ano": 2012,
+      "genero": "Plataforma",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=New+Super+Mario+Bros+U"
+    },
+    {
+      "id": 138,
+      "titulo": "The Last of Us",
+      "ano": 2013,
+      "genero": "Survival",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/556B2F/FFFFFF?text=The+Last+of+Us"
+    },
+    {
+      "id": 139,
+      "titulo": "Grand Theft Auto V",
+      "ano": 2013,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 3",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Grand+Theft+Auto+V"
+    },
+    {
+      "id": 140,
+      "titulo": "Tomb Raider",
+      "ano": 2013,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Tomb+Raider"
+    },
+    {
+      "id": 141,
+      "titulo": "Metro: Last Light",
+      "ano": 2013,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Metro+Last+Light"
+    },
+    {
+      "id": 142,
+      "titulo": "Dead Space 3",
+      "ano": 2013,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Dead+Space+3"
+    },
+    {
+      "id": 143,
+      "titulo": "Assassin's Creed IV: Black Flag",
+      "ano": 2013,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Assassins+Creed+IV+Black+Flag"
+    },
+    {
+      "id": 144,
+      "titulo": "Call of Duty: Ghosts",
+      "ano": 2013,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Ghosts"
+    },
+    {
+      "id": 145,
+      "titulo": "Super Mario 3D World",
+      "ano": 2013,
+      "genero": "Plataforma",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+3D+World"
+    },
+    {
+      "id": 146,
+      "titulo": "The Legend of Zelda: A Link Between Worlds",
+      "ano": 2013,
+      "genero": "Aventura",
+      "plataforma": "Nintendo 3DS",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+A+Link+Between+Worlds"
+    },
+    {
+      "id": 147,
+      "titulo": "Dragon Age: Inquisition",
+      "ano": 2014,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Dragon+Age+Inquisition"
+    },
+    {
+      "id": 148,
+      "titulo": "Middle-earth: Shadow of Mordor",
+      "ano": 2014,
+      "genero": "Ação/Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Middleearth+Shadow+of+Mordor"
+    },
+    {
+      "id": 149,
+      "titulo": "Destiny",
+      "ano": 2014,
+      "genero": "FPS/MMO",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Destiny"
+    },
+    {
+      "id": 150,
+      "titulo": "Mario Kart 8",
+      "ano": 2014,
+      "genero": "Corrida",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Mario+Kart+8"
+    },
+    {
+      "id": 151,
+      "titulo": "Bayonetta 2",
+      "ano": 2014,
+      "genero": "Ação",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=Bayonetta+2"
+    },
+    {
+      "id": 152,
+      "titulo": "Super Smash Bros. for Wii U",
+      "ano": 2014,
+      "genero": "Luta",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Super+Smash+Bros+for+Wii+U"
+    },
+    {
+      "id": 153,
+      "titulo": "Call of Duty: Advanced Warfare",
+      "ano": 2014,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Advanced+Warfare"
+    },
+    {
+      "id": 154,
+      "titulo": "Far Cry 4",
+      "ano": 2014,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Far+Cry+4"
+    },
+    {
+      "id": 155,
+      "titulo": "Alien: Isolation",
+      "ano": 2014,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Alien+Isolation"
+    },
+    {
+      "id": 156,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "ano": 2015,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=The+Witcher+3+Wild+Hunt"
+    },
+    {
+      "id": 157,
+      "titulo": "Bloodborne",
+      "ano": 2015,
+      "genero": "RPG",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Bloodborne"
+    },
+    {
+      "id": 158,
+      "titulo": "Metal Gear Solid V: The Phantom Pain",
+      "ano": 2015,
+      "genero": "Stealth",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/696969/FFFFFF?text=Metal+Gear+Solid+V+The+Phantom+Pain"
+    },
+    {
+      "id": 159,
+      "titulo": "Fallout 4",
+      "ano": 2015,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Fallout+4"
+    },
+    {
+      "id": 160,
+      "titulo": "Super Mario Maker",
+      "ano": 2015,
+      "genero": "Criação",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/DDA0DD/000000?text=Super+Mario+Maker"
+    },
+    {
+      "id": 161,
+      "titulo": "Splatoon",
+      "ano": 2015,
+      "genero": "TPS",
+      "plataforma": "Wii U",
+      "thumbnail": "https://via.placeholder.com/300x400/B22222/FFFFFF?text=Splatoon"
+    },
+    {
+      "id": 162,
+      "titulo": "Rocket League",
+      "ano": 2015,
+      "genero": "Esportes",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/32CD32/000000?text=Rocket+League"
+    },
+    {
+      "id": 163,
+      "titulo": "Call of Duty: Black Ops III",
+      "ano": 2015,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Black+Ops+III"
+    },
+    {
+      "id": 164,
+      "titulo": "Star Wars Battlefront",
+      "ano": 2015,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Star+Wars+Battlefront"
+    },
+    {
+      "id": 165,
+      "titulo": "Halo 5: Guardians",
+      "ano": 2015,
+      "genero": "FPS",
+      "plataforma": "Xbox One",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Halo+5+Guardians"
+    },
+    {
+      "id": 166,
+      "titulo": "Undertale",
+      "ano": 2015,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Undertale"
+    },
+    {
+      "id": 167,
+      "titulo": "Overwatch",
+      "ano": 2016,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Overwatch"
+    },
+    {
+      "id": 168,
+      "titulo": "DOOM",
+      "ano": 2016,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=DOOM"
+    },
+    {
+      "id": 169,
+      "titulo": "Dark Souls III",
+      "ano": 2016,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Dark+Souls+III"
+    },
+    {
+      "id": 170,
+      "titulo": "Uncharted 4: A Thief's End",
+      "ano": 2016,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Uncharted+4+A+Thiefs+End"
+    },
+    {
+      "id": 171,
+      "titulo": "Battlefield 1",
+      "ano": 2016,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Battlefield+1"
+    },
+    {
+      "id": 172,
+      "titulo": "Pokémon Sun and Moon",
+      "ano": 2016,
+      "genero": "RPG",
+      "plataforma": "Nintendo 3DS",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Pokmon+Sun+and+Moon"
+    },
+    {
+      "id": 173,
+      "titulo": "Titanfall 2",
+      "ano": 2016,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Titanfall+2"
+    },
+    {
+      "id": 174,
+      "titulo": "Inside",
+      "ano": 2016,
+      "genero": "Puzzle",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/20B2AA/FFFFFF?text=Inside"
+    },
+    {
+      "id": 175,
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "ano": 2017,
+      "genero": "Aventura",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+Breath+of+the+Wild"
+    },
+    {
+      "id": 176,
+      "titulo": "Super Mario Odyssey",
+      "ano": 2017,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+Odyssey"
+    },
+    {
+      "id": 177,
+      "titulo": "Horizon Zero Dawn",
+      "ano": 2017,
+      "genero": "Ação/RPG",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Horizon+Zero+Dawn"
+    },
+    {
+      "id": 178,
+      "titulo": "Persona 5",
+      "ano": 2017,
+      "genero": "RPG",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Persona+5"
+    },
+    {
+      "id": 179,
+      "titulo": "NieR: Automata",
+      "ano": 2017,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=NieR+Automata"
+    },
+    {
+      "id": 180,
+      "titulo": "Resident Evil 7",
+      "ano": 2017,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Resident+Evil+7"
+    },
+    {
+      "id": 181,
+      "titulo": "Cuphead",
+      "ano": 2017,
+      "genero": "Plataforma",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Cuphead"
+    },
+    {
+      "id": 182,
+      "titulo": "PlayerUnknown's Battlegrounds",
+      "ano": 2017,
+      "genero": "Battle Royale",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF8C00/FFFFFF?text=PlayerUnknowns+Battlegrounds"
+    },
+    {
+      "id": 183,
+      "titulo": "Destiny 2",
+      "ano": 2017,
+      "genero": "FPS/MMO",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Destiny+2"
+    },
+    {
+      "id": 184,
+      "titulo": "Call of Duty: WWII",
+      "ano": 2017,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+WWII"
+    },
+    {
+      "id": 185,
+      "titulo": "Assassin's Creed Origins",
+      "ano": 2017,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Assassins+Creed+Origins"
+    },
+    {
+      "id": 186,
+      "titulo": "Middle-earth: Shadow of War",
+      "ano": 2017,
+      "genero": "Ação/Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Middleearth+Shadow+of+War"
+    },
+    {
+      "id": 187,
+      "titulo": "Wolfenstein II: The New Colossus",
+      "ano": 2017,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Wolfenstein+II+The+New+Colossus"
+    },
+    {
+      "id": 188,
+      "titulo": "Mario Kart 8 Deluxe",
+      "ano": 2017,
+      "genero": "Corrida",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Mario+Kart+8+Deluxe"
+    },
+    {
+      "id": 189,
+      "titulo": "Splatoon 2",
+      "ano": 2017,
+      "genero": "TPS",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/B22222/FFFFFF?text=Splatoon+2"
+    },
+    {
+      "id": 190,
+      "titulo": "God of War",
+      "ano": 2018,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=God+of+War"
+    },
+    {
+      "id": 191,
+      "titulo": "Red Dead Redemption 2",
+      "ano": 2018,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Red+Dead+Redemption+2"
+    },
+    {
+      "id": 192,
+      "titulo": "Marvel's Spider-Man",
+      "ano": 2018,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Marvels+SpiderMan"
+    },
+    {
+      "id": 193,
+      "titulo": "Assassin's Creed Odyssey",
+      "ano": 2018,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Assassins+Creed+Odyssey"
+    },
+    {
+      "id": 194,
+      "titulo": "Call of Duty: Black Ops 4",
+      "ano": 2018,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Black+Ops+4"
+    },
+    {
+      "id": 195,
+      "titulo": "Battlefield V",
+      "ano": 2018,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Battlefield+V"
+    },
+    {
+      "id": 196,
+      "titulo": "Forza Horizon 4",
+      "ano": 2018,
+      "genero": "Corrida",
+      "plataforma": "Xbox One",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Forza+Horizon+4"
+    },
+    {
+      "id": 197,
+      "titulo": "Super Smash Bros. Ultimate",
+      "ano": 2018,
+      "genero": "Luta",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Super+Smash+Bros+Ultimate"
+    },
+    {
+      "id": 198,
+      "titulo": "Pokémon Let's Go",
+      "ano": 2018,
+      "genero": "RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Pokmon+Lets+Go"
+    },
+    {
+      "id": 199,
+      "titulo": "Monster Hunter: World",
+      "ano": 2018,
+      "genero": "Ação/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Monster+Hunter+World"
+    },
+    {
+      "id": 200,
+      "titulo": "Far Cry 5",
+      "ano": 2018,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Far+Cry+5"
+    },
+    {
+      "id": 201,
+      "titulo": "A Way Out",
+      "ano": 2018,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=A+Way+Out"
+    },
+    {
+      "id": 202,
+      "titulo": "Detroit: Become Human",
+      "ano": 2018,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Detroit+Become+Human"
+    },
+    {
+      "id": 203,
+      "titulo": "Celeste",
+      "ano": 2018,
+      "genero": "Plataforma",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Celeste"
+    },
+    {
+      "id": 204,
+      "titulo": "Dead Cells",
+      "ano": 2018,
+      "genero": "Metroidvania",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/8A2BE2/FFFFFF?text=Dead+Cells"
+    },
+    {
+      "id": 205,
+      "titulo": "Return of the Obra Dinn",
+      "ano": 2018,
+      "genero": "Puzzle",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/20B2AA/FFFFFF?text=Return+of+the+Obra+Dinn"
+    },
+    {
+      "id": 206,
+      "titulo": "Sekiro: Shadows Die Twice",
+      "ano": 2019,
+      "genero": "Ação",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=Sekiro+Shadows+Die+Twice"
+    },
+    {
+      "id": 207,
+      "titulo": "Control",
+      "ano": 2019,
+      "genero": "Ação",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=Control"
+    },
+    {
+      "id": 208,
+      "titulo": "Death Stranding",
+      "ano": 2019,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Death+Stranding"
+    },
+    {
+      "id": 209,
+      "titulo": "Star Wars Jedi: Fallen Order",
+      "ano": 2019,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Star+Wars+Jedi+Fallen+Order"
+    },
+    {
+      "id": 210,
+      "titulo": "Call of Duty: Modern Warfare",
+      "ano": 2019,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Modern+Warfare"
+    },
+    {
+      "id": 211,
+      "titulo": "Borderlands 3",
+      "ano": 2019,
+      "genero": "FPS/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Borderlands+3"
+    },
+    {
+      "id": 212,
+      "titulo": "The Outer Worlds",
+      "ano": 2019,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=The+Outer+Worlds"
+    },
+    {
+      "id": 213,
+      "titulo": "Apex Legends",
+      "ano": 2019,
+      "genero": "Battle Royale",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF8C00/FFFFFF?text=Apex+Legends"
+    },
+    {
+      "id": 214,
+      "titulo": "Metro Exodus",
+      "ano": 2019,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Metro+Exodus"
+    },
+    {
+      "id": 215,
+      "titulo": "Resident Evil 2",
+      "ano": 2019,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Resident+Evil+2"
+    },
+    {
+      "id": 216,
+      "titulo": "Super Mario Maker 2",
+      "ano": 2019,
+      "genero": "Criação",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/DDA0DD/000000?text=Super+Mario+Maker+2"
+    },
+    {
+      "id": 217,
+      "titulo": "Fire Emblem: Three Houses",
+      "ano": 2019,
+      "genero": "Estratégia",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/4169E1/FFFFFF?text=Fire+Emblem+Three+Houses"
+    },
+    {
+      "id": 218,
+      "titulo": "Pokémon Sword and Shield",
+      "ano": 2019,
+      "genero": "RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Pokmon+Sword+and+Shield"
+    },
+    {
+      "id": 219,
+      "titulo": "Luigi's Mansion 3",
+      "ano": 2019,
+      "genero": "Aventura",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Luigis+Mansion+3"
+    },
+    {
+      "id": 220,
+      "titulo": "The Last of Us Part II",
+      "ano": 2020,
+      "genero": "Survival",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/556B2F/FFFFFF?text=The+Last+of+Us+Part+II"
+    },
+    {
+      "id": 221,
+      "titulo": "Ghost of Tsushima",
+      "ano": 2020,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Ghost+of+Tsushima"
+    },
+    {
+      "id": 222,
+      "titulo": "Cyberpunk 2077",
+      "ano": 2020,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Cyberpunk+2077"
+    },
+    {
+      "id": 223,
+      "titulo": "Doom Eternal",
+      "ano": 2020,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Doom+Eternal"
+    },
+    {
+      "id": 224,
+      "titulo": "Animal Crossing: New Horizons",
+      "ano": 2020,
+      "genero": "Simulação",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/9370DB/FFFFFF?text=Animal+Crossing+New+Horizons"
+    },
+    {
+      "id": 225,
+      "titulo": "Fall Guys",
+      "ano": 2020,
+      "genero": "Party",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFB6C1/000000?text=Fall+Guys"
+    },
+    {
+      "id": 226,
+      "titulo": "Among Us",
+      "ano": 2018,
+      "genero": "Social",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/87CEEB/000000?text=Among+Us"
+    },
+    {
+      "id": 227,
+      "titulo": "Hades",
+      "ano": 2020,
+      "genero": "Roguelike",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/8B4513/FFFFFF?text=Hades"
+    },
+    {
+      "id": 228,
+      "titulo": "Call of Duty: Black Ops Cold War",
+      "ano": 2020,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Black+Ops+Cold+War"
+    },
+    {
+      "id": 229,
+      "titulo": "Assassin's Creed Valhalla",
+      "ano": 2020,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Assassins+Creed+Valhalla"
+    },
+    {
+      "id": 230,
+      "titulo": "Watch Dogs: Legion",
+      "ano": 2020,
+      "genero": "Ação/Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Watch+Dogs+Legion"
+    },
+    {
+      "id": 231,
+      "titulo": "Spider-Man: Miles Morales",
+      "ano": 2020,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=SpiderMan+Miles+Morales"
+    },
+    {
+      "id": 232,
+      "titulo": "Demon's Souls",
+      "ano": 2020,
+      "genero": "RPG",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Demons+Souls"
+    },
+    {
+      "id": 233,
+      "titulo": "Super Mario 3D All-Stars",
+      "ano": 2020,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+3D+AllStars"
+    },
+    {
+      "id": 234,
+      "titulo": "Paper Mario: The Origami King",
+      "ano": 2020,
+      "genero": "RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Paper+Mario+The+Origami+King"
+    },
+    {
+      "id": 235,
+      "titulo": "Ori and the Will of the Wisps",
+      "ano": 2020,
+      "genero": "Metroidvania",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/8A2BE2/FFFFFF?text=Ori+and+the+Will+of+the+Wisps"
+    },
+    {
+      "id": 236,
+      "titulo": "Resident Evil 3",
+      "ano": 2020,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Resident+Evil+3"
+    },
+    {
+      "id": 237,
+      "titulo": "Final Fantasy VII Remake",
+      "ano": 2020,
+      "genero": "RPG",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Final+Fantasy+VII+Remake"
+    },
+    {
+      "id": 238,
+      "titulo": "Genshin Impact",
+      "ano": 2020,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Genshin+Impact"
+    },
+    {
+      "id": 239,
+      "titulo": "Valheim",
+      "ano": 2021,
+      "genero": "Survival",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/556B2F/FFFFFF?text=Valheim"
+    },
+    {
+      "id": 240,
+      "titulo": "It Takes Two",
+      "ano": 2021,
+      "genero": "Cooperativo",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/00CED1/000000?text=It+Takes+Two"
+    },
+    {
+      "id": 241,
+      "titulo": "Resident Evil Village",
+      "ano": 2021,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Resident+Evil+Village"
+    },
+    {
+      "id": 242,
+      "titulo": "Returnal",
+      "ano": 2021,
+      "genero": "Roguelike",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/8B4513/FFFFFF?text=Returnal"
+    },
+    {
+      "id": 243,
+      "titulo": "Ratchet & Clank: Rift Apart",
+      "ano": 2021,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Ratchet+Clank+Rift+Apart"
+    },
+    {
+      "id": 244,
+      "titulo": "Mass Effect Legendary Edition",
+      "ano": 2021,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Mass+Effect+Legendary+Edition"
+    },
+    {
+      "id": 245,
+      "titulo": "Deathloop",
+      "ano": 2021,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Deathloop"
+    },
+    {
+      "id": 246,
+      "titulo": "Metroid Dread",
+      "ano": 2021,
+      "genero": "Metroidvania",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/8A2BE2/FFFFFF?text=Metroid+Dread"
+    },
+    {
+      "id": 247,
+      "titulo": "Super Mario 3D World + Bowser's Fury",
+      "ano": 2021,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+3D+World+Bowsers+Fury"
+    },
+    {
+      "id": 248,
+      "titulo": "New World",
+      "ano": 2021,
+      "genero": "MMORPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/4B0082/FFFFFF?text=New+World"
+    },
+    {
+      "id": 249,
+      "titulo": "Call of Duty: Vanguard",
+      "ano": 2021,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Vanguard"
+    },
+    {
+      "id": 250,
+      "titulo": "Forza Horizon 5",
+      "ano": 2021,
+      "genero": "Corrida",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Forza+Horizon+5"
+    },
+    {
+      "id": 251,
+      "titulo": "Halo Infinite",
+      "ano": 2021,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Halo+Infinite"
+    },
+    {
+      "id": 252,
+      "titulo": "Battlefield 2042",
+      "ano": 2021,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Battlefield+2042"
+    },
+    {
+      "id": 253,
+      "titulo": "Far Cry 6",
+      "ano": 2021,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Far+Cry+6"
+    },
+    {
+      "id": 254,
+      "titulo": "Back 4 Blood",
+      "ano": 2021,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Back+4+Blood"
+    },
+    {
+      "id": 255,
+      "titulo": "Age of Empires IV",
+      "ano": 2021,
+      "genero": "RTS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/006400/FFFFFF?text=Age+of+Empires+IV"
+    },
+    {
+      "id": 256,
+      "titulo": "Guardians of the Galaxy",
+      "ano": 2021,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Guardians+of+the+Galaxy"
+    },
+    {
+      "id": 257,
+      "titulo": "Lost Judgment",
+      "ano": 2021,
+      "genero": "Aventura",
+      "plataforma": "PlayStation 4",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Lost+Judgment"
+    },
+    {
+      "id": 258,
+      "titulo": "Psychonauts 2",
+      "ano": 2021,
+      "genero": "Plataforma",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Psychonauts+2"
+    },
+    {
+      "id": 259,
+      "titulo": "Kena: Bridge of Spirits",
+      "ano": 2021,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Kena+Bridge+of+Spirits"
+    },
+    {
+      "id": 260,
+      "titulo": "Inscryption",
+      "ano": 2021,
+      "genero": "Card Game",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/191970/FFFFFF?text=Inscryption"
+    },
+    {
+      "id": 261,
+      "titulo": "Pokémon Brilliant Diamond and Shining Pearl",
+      "ano": 2021,
+      "genero": "RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Pokmon+Brilliant+Diamond+and+Shining+Pearl"
+    },
+    {
+      "id": 262,
+      "titulo": "Monster Hunter Rise",
+      "ano": 2021,
+      "genero": "Ação/RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Monster+Hunter+Rise"
+    },
+    {
+      "id": 263,
+      "titulo": "Elden Ring",
+      "ano": 2022,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Elden+Ring"
+    },
+    {
+      "id": 264,
+      "titulo": "Horizon Forbidden West",
+      "ano": 2022,
+      "genero": "Ação/RPG",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Horizon+Forbidden+West"
+    },
+    {
+      "id": 265,
+      "titulo": "God of War Ragnarök",
+      "ano": 2022,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=God+of+War+Ragnark"
+    },
+    {
+      "id": 266,
+      "titulo": "Call of Duty: Modern Warfare II",
+      "ano": 2022,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Call+of+Duty+Modern+Warfare+II"
+    },
+    {
+      "id": 267,
+      "titulo": "Overwatch 2",
+      "ano": 2022,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Overwatch+2"
+    },
+    {
+      "id": 268,
+      "titulo": "Pokémon Legends: Arceus",
+      "ano": 2022,
+      "genero": "RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Pokmon+Legends+Arceus"
+    },
+    {
+      "id": 269,
+      "titulo": "Kirby and the Forgotten Land",
+      "ano": 2022,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Kirby+and+the+Forgotten+Land"
+    },
+    {
+      "id": 270,
+      "titulo": "Xenoblade Chronicles 3",
+      "ano": 2022,
+      "genero": "RPG",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Xenoblade+Chronicles+3"
+    },
+    {
+      "id": 271,
+      "titulo": "Splatoon 3",
+      "ano": 2022,
+      "genero": "TPS",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/B22222/FFFFFF?text=Splatoon+3"
+    },
+    {
+      "id": 272,
+      "titulo": "The Quarry",
+      "ano": 2022,
+      "genero": "Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/8B0000/FFFFFF?text=The+Quarry"
+    },
+    {
+      "id": 273,
+      "titulo": "Stray",
+      "ano": 2022,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Stray"
+    },
+    {
+      "id": 274,
+      "titulo": "Neon White",
+      "ano": 2022,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Neon+White"
+    },
+    {
+      "id": 275,
+      "titulo": "Fall Guys (Free-to-Play)",
+      "ano": 2022,
+      "genero": "Party",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFB6C1/000000?text=Fall+Guys+FreetoPlay"
+    },
+    {
+      "id": 276,
+      "titulo": "Multiversus",
+      "ano": 2022,
+      "genero": "Luta",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Multiversus"
+    },
+    {
+      "id": 277,
+      "titulo": "Tunic",
+      "ano": 2022,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=Tunic"
+    },
+    {
+      "id": 278,
+      "titulo": "A Plague Tale: Requiem",
+      "ano": 2022,
+      "genero": "Aventura",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=A+Plague+Tale+Requiem"
+    },
+    {
+      "id": 279,
+      "titulo": "Sifu",
+      "ano": 2022,
+      "genero": "Ação",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=Sifu"
+    },
+    {
+      "id": 280,
+      "titulo": "Gran Turismo 7",
+      "ano": 2022,
+      "genero": "Corrida",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/FF1493/FFFFFF?text=Gran+Turismo+7"
+    },
+    {
+      "id": 281,
+      "titulo": "The Legend of Zelda: Tears of the Kingdom",
+      "ano": 2023,
+      "genero": "Aventura",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/228B22/FFFFFF?text=The+Legend+of+Zelda+Tears+of+the+Kingdom"
+    },
+    {
+      "id": 282,
+      "titulo": "Baldur's Gate 3",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Baldurs+Gate+3"
+    },
+    {
+      "id": 283,
+      "titulo": "Spider-Man 2",
+      "ano": 2023,
+      "genero": "Ação/Aventura",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=SpiderMan+2"
+    },
+    {
+      "id": 284,
+      "titulo": "Starfield",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Starfield"
+    },
+    {
+      "id": 285,
+      "titulo": "Super Mario Bros. Wonder",
+      "ano": 2023,
+      "genero": "Plataforma",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Super+Mario+Bros+Wonder"
+    },
+    {
+      "id": 286,
+      "titulo": "Alan Wake 2",
+      "ano": 2023,
+      "genero": "Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/8B0000/FFFFFF?text=Alan+Wake+2"
+    },
+    {
+      "id": 287,
+      "titulo": "Diablo IV",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Diablo+IV"
+    },
+    {
+      "id": 288,
+      "titulo": "Resident Evil 4",
+      "ano": 2023,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Resident+Evil+4"
+    },
+    {
+      "id": 289,
+      "titulo": "Street Fighter 6",
+      "ano": 2023,
+      "genero": "Luta",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF0000/FFFFFF?text=Street+Fighter+6"
+    },
+    {
+      "id": 290,
+      "titulo": "Final Fantasy XVI",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PlayStation 5",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Final+Fantasy+XVI"
+    },
+    {
+      "id": 291,
+      "titulo": "Hogwarts Legacy",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Hogwarts+Legacy"
+    },
+    {
+      "id": 292,
+      "titulo": "Dead Space",
+      "ano": 2023,
+      "genero": "Survival Horror",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/2F4F4F/FFFFFF?text=Dead+Space"
+    },
+    {
+      "id": 293,
+      "titulo": "Hi-Fi Rush",
+      "ano": 2023,
+      "genero": "Ação",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/DC143C/FFFFFF?text=HiFi+Rush"
+    },
+    {
+      "id": 294,
+      "titulo": "Pizza Tower",
+      "ano": 2023,
+      "genero": "Plataforma",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FFD700/000000?text=Pizza+Tower"
+    },
+    {
+      "id": 295,
+      "titulo": "Atomic Heart",
+      "ano": 2023,
+      "genero": "FPS",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/FF4500/FFFFFF?text=Atomic+Heart"
+    },
+    {
+      "id": 296,
+      "titulo": "Forspoken",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Forspoken"
+    },
+    {
+      "id": 297,
+      "titulo": "Wild Hearts",
+      "ano": 2023,
+      "genero": "Ação/RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Wild+Hearts"
+    },
+    {
+      "id": 298,
+      "titulo": "Octopath Traveler II",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Octopath+Traveler+II"
+    },
+    {
+      "id": 299,
+      "titulo": "Metroid Prime Remastered",
+      "ano": 2023,
+      "genero": "FPS/Aventura",
+      "plataforma": "Nintendo Switch",
+      "thumbnail": "https://via.placeholder.com/300x400/333333/FFFFFF?text=Metroid+Prime+Remastered"
+    },
+    {
+      "id": 300,
+      "titulo": "Wo Long: Fallen Dynasty",
+      "ano": 2023,
+      "genero": "RPG",
+      "plataforma": "PC",
+      "thumbnail": "https://via.placeholder.com/300x400/800080/FFFFFF?text=Wo+Long+Fallen+Dynasty"
+    }
+  ]
+}

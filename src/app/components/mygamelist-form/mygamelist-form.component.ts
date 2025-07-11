@@ -53,10 +53,21 @@ export class MygamelistFormComponent implements OnInit {
       if (id) {
         this.isEditMode = true;
         this.jogoId = +id;
-        const jogo = this.gameService.listar().find(j => j.id === this.jogoId);
-        if (jogo) {
-          this.jogoForm.patchValue(jogo);
-        }
+        this.gameService.obterPorId(this.jogoId).subscribe({
+          next: (jogo) => {
+            if (jogo) {
+              this.jogoForm.patchValue(jogo);
+            }
+          },
+          error: (error) => {
+            console.error('Erro ao carregar jogo:', error);
+            this.messageService.add({
+              severity: 'error',
+              summary: 'Erro',
+              detail: 'Erro ao carregar jogo para edição.'
+            });
+          }
+        });
       }
     });
   }
@@ -64,14 +75,46 @@ export class MygamelistFormComponent implements OnInit {
   onSubmit() {
     if (this.jogoForm.invalid) return;
     const jogo: MyGameList = this.jogoForm.value;
+    
     if (this.isEditMode && this.jogoId !== null) {
-      this.gameService.atualizar(this.jogoId, jogo);
-      this.messageService.add({ severity: 'success', summary: 'Sucesso', detail: 'Jogo atualizado!' });
+      this.gameService.atualizar(this.jogoId, jogo).subscribe({
+        next: () => {
+          this.messageService.add({ 
+            severity: 'success', 
+            summary: 'Sucesso', 
+            detail: 'Jogo atualizado!' 
+          });
+          setTimeout(() => this.router.navigate(['/lista']), 800);
+        },
+        error: (error) => {
+          console.error('Erro ao atualizar jogo:', error);
+          this.messageService.add({
+            severity: 'error',
+            summary: 'Erro',
+            detail: 'Erro ao atualizar jogo.'
+          });
+        }
+      });
     } else {
-      this.gameService.adicionar(jogo);
-      this.messageService.add({ severity: 'success', summary: 'Sucesso', detail: 'Jogo adicionado!' });
+      this.gameService.adicionar(jogo).subscribe({
+        next: () => {
+          this.messageService.add({ 
+            severity: 'success', 
+            summary: 'Sucesso', 
+            detail: 'Jogo adicionado!' 
+          });
+          setTimeout(() => this.router.navigate(['/lista']), 800);
+        },
+        error: (error) => {
+          console.error('Erro ao adicionar jogo:', error);
+          this.messageService.add({
+            severity: 'error',
+            summary: 'Erro',
+            detail: 'Erro ao adicionar jogo.'
+          });
+        }
+      });
     }
-    setTimeout(() => this.router.navigate(['/lista']), 800);
   }
 
   voltar() {

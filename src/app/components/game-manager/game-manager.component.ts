@@ -44,7 +44,19 @@ export class GameManagerComponent implements OnInit {
   }
 
   loadGames() {
-    this.games = this.gameService.listar();
+    this.gameService.listar().subscribe({
+      next: (games) => {
+        this.games = games;
+      },
+      error: (error) => {
+        console.error('Erro ao carregar jogos:', error);
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Erro ao carregar lista de jogos'
+        });
+      }
+    });
   }
 
   // Eventos do componente de lista
@@ -77,13 +89,24 @@ export class GameManagerComponent implements OnInit {
 
   // Eventos do componente de inserção
   onGameAdded(game: MyGameList) {
-    this.gameService.adicionar(game);
-    this.loadGames();
-    this.currentView = 'list';
-    this.messageService.add({
-      severity: 'success',
-      summary: 'Sucesso',
-      detail: 'Jogo adicionado com sucesso!'
+    this.gameService.adicionar(game).subscribe({
+      next: (addedGame) => {
+        this.loadGames();
+        this.currentView = 'list';
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Sucesso',
+          detail: 'Jogo adicionado com sucesso!'
+        });
+      },
+      error: (error) => {
+        console.error('Erro ao adicionar jogo:', error);
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Erro ao adicionar jogo'
+        });
+      }
     });
   }
 
@@ -93,14 +116,25 @@ export class GameManagerComponent implements OnInit {
 
   // Eventos do componente de atualização
   onGameUpdated(game: MyGameList) {
-    this.gameService.atualizar(game.id, game);
-    this.loadGames();
-    this.currentView = 'list';
-    this.selectedGame = null;
-    this.messageService.add({
-      severity: 'success',
-      summary: 'Sucesso',
-      detail: 'Jogo atualizado com sucesso!'
+    this.gameService.atualizar(game.id, game).subscribe({
+      next: (updatedGame) => {
+        this.loadGames();
+        this.currentView = 'list';
+        this.selectedGame = null;
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Sucesso',
+          detail: 'Jogo atualizado com sucesso!'
+        });
+      },
+      error: (error) => {
+        console.error('Erro ao atualizar jogo:', error);
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Erro ao atualizar jogo'
+        });
+      }
     });
   }
 
@@ -126,14 +160,25 @@ export class GameManagerComponent implements OnInit {
 
   // Método auxiliar para deletar jogo
   private deleteGame(id: number) {
-    this.gameService.remover(id);
-    this.loadGames();
-    this.currentView = 'list';
-    this.selectedGame = null;
-    this.messageService.add({
-      severity: 'success',
-      summary: 'Sucesso',
-      detail: 'Jogo removido com sucesso!'
+    this.gameService.remover(id).subscribe({
+      next: () => {
+        this.loadGames();
+        this.currentView = 'list';
+        this.selectedGame = null;
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Sucesso',
+          detail: 'Jogo removido com sucesso!'
+        });
+      },
+      error: (error) => {
+        console.error('Erro ao remover jogo:', error);
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Erro ao remover jogo'
+        });
+      }
     });
   }
 }
