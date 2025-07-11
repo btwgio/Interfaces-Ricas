@@ -40,7 +40,19 @@ export class MygamelistListComponent implements OnInit {
   }
 
   carregarJogos() {
-    this.jogos = this.gameService.listar();
+    this.gameService.listar().subscribe({
+      next: (jogos) => {
+        this.jogos = jogos;
+      },
+      error: (error) => {
+        console.error('Erro ao carregar jogos:', error);
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Erro ao carregar jogos. Verifique se o backend está rodando.'
+        });
+      }
+    });
   }
 
   confirmarRemocao(jogo: MyGameList) {
@@ -57,12 +69,23 @@ export class MygamelistListComponent implements OnInit {
 }
 
 removerJogo(id: number) {
-  this.gameService.remover(id);
-  this.carregarJogos();
-  this.messageService.add({
-    severity: 'success',
-    summary: 'Sucesso',
-    detail: 'Jogo removido com sucesso!'
+  this.gameService.remover(id).subscribe({
+    next: () => {
+      this.carregarJogos();
+      this.messageService.add({
+        severity: 'success',
+        summary: 'Sucesso',
+        detail: 'Jogo removido com sucesso!'
+      });
+    },
+    error: (error) => {
+      console.error('Erro ao remover jogo:', error);
+      this.messageService.add({
+        severity: 'error',
+        summary: 'Erro',
+        detail: 'Erro ao remover jogo.'
+      });
+    }
   });
 }
 

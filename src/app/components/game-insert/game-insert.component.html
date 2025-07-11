@@ -6,13 +6,18 @@
   <form [formGroup]="jogoForm" (ngSubmit)="onSubmit()">
     <div class="p-field">
       <label for="titulo">Título*</label>
-      <input 
-        pInputText 
-        id="titulo" 
-        formControlName="titulo" 
+      <p-autoComplete 
+        id="titulo"
+        formControlName="titulo"
+        [suggestions]="filteredGames"
+        (completeMethod)="searchGames($event)"
+        (onSelect)="onGameSelect($event)"
+        field="label"
         placeholder="Digite o título do jogo"
+        [minLength]="3"
+        [dropdown]="true"
         [class.ng-invalid]="isFieldInvalid('titulo')"
-      />
+      ></p-autoComplete>
       <small *ngIf="isFieldInvalid('titulo')" class="p-error">
         Título é obrigatório
       </small>
