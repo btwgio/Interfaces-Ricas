@@ -3,7 +3,17 @@
     <div class="p-fluid p-formgrid p-grid">
       <div class="p-field p-col-12">
         <label for="titulo">Título</label>
-        <input id="titulo" type="text" pInputText formControlName="titulo" />
+        <p-autoComplete
+          id="titulo"
+          formControlName="titulo"
+          [suggestions]="filteredGames"
+          (completeMethod)="searchGames($event)"
+          (onSelect)="onGameSelect($event)"
+          field="titulo"
+          placeholder="Digite o título do jogo"
+          [minLength]="3"
+          [dropdown]="true"
+        ></p-autoComplete>
       </div>
       <div class="p-field p-col-12 p-md-6">
         <label for="ano">Ano</label>

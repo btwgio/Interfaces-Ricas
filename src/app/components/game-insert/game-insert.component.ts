@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Output, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
@@ -25,13 +25,14 @@ import { debounceTime, distinctUntilChanged, switchMap, of } from 'rxjs';
   templateUrl: './game-insert.component.html',
   styleUrl: './game-insert.component.scss'
 })
-export class GameInsertComponent {
+export class GameInsertComponent implements OnInit {
   @Output() gameAdded = new EventEmitter<MyGameList>();
   @Output() cancelled = new EventEmitter<void>();
 
   jogoForm: FormGroup;
   filteredGames: any[] = [];
   selectedGame: any = null;
+  lastQuery = '';
 
   constructor(
     private fb: FormBuilder,
@@ -46,9 +47,14 @@ export class GameInsertComponent {
     });
   }
 
+  ngOnInit() {
+    
+  }
+
   searchGames(event: any) {
     const query = event.query;
-    if (query && query.length > 2) {
+    if (query && query.length > 2 && query !== this.lastQuery) {
+      this.lastQuery = query;
       this.jogosService.searchGames(query).subscribe({
         next: (games) => {
           this.filteredGames = games;
@@ -58,7 +64,7 @@ export class GameInsertComponent {
           this.filteredGames = [];
         }
       });
-    } else {
+    } else if (!query || query.length <= 2) {
       this.filteredGames = [];
     }
   }
