@@ -30,4 +30,8 @@ export class MygamelistService {
   remover(id: number): Observable<void> {
     return this.http.delete<void>(`${this.apiUrl}/${id}`);
   }
+
+  autocomplete(query: string): Observable<any[]> {
+    return this.http.get<any[]>(`http://localhost:3000/api/autocomplete?q=${encodeURIComponent(query)}`);
+  }
 }

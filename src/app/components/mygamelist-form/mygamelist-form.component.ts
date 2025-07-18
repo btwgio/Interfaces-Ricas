@@ -10,6 +10,7 @@ import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
 import { MygamelistService } from '../../services/mygamelist.service';
 import { MyGameList } from '../../models/mygamelist.model';
+import { AutoCompleteModule } from 'primeng/autocomplete';
 
 @Component({
   selector: 'app-mygamelist-form',
@@ -21,7 +22,8 @@ import { MyGameList } from '../../models/mygamelist.model';
     InputTextModule,
     CheckboxModule,
     CardModule,
-    ToastModule
+    ToastModule,
+    AutoCompleteModule 
   ],
   templateUrl: './mygamelist-form.component.html',
   providers: [MessageService]
@@ -30,6 +32,8 @@ export class MygamelistFormComponent implements OnInit {
   jogoForm: FormGroup;
   isEditMode = false;
   jogoId: number | null = null;
+  filteredGames: any[] = [];
+  lastQuery = '';
 
   constructor(
     private fb: FormBuilder,
@@ -69,6 +73,33 @@ export class MygamelistFormComponent implements OnInit {
           }
         });
       }
+    });
+  }
+
+  searchGames(event: any) {
+    const query = event.query;
+    if (query && query.length > 2 && query !== this.lastQuery) {
+      this.lastQuery = query;
+      this.gameService.autocomplete(query).subscribe({
+        next: (games) => {
+          this.filteredGames = games;
+        },
+        error: (error) => {
+          this.filteredGames = [];
+        }
+      });
+    } else if (!query || query.length <= 2) {
+      this.filteredGames = [];
+    }
+  }
+
+  onGameSelect(event: any) {
+    const game = event.value || event;
+    this.jogoForm.patchValue({
+      titulo: game.titulo,
+      ano: game.ano,
+      genero: game.genero,
+      plataforma: game.plataforma
     });
   }
 

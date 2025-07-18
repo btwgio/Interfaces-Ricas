@@ -1,12 +1,12 @@
 <div class="list-container">
   <div class="list-header">
     <h2>Minha Lista de Jogos</h2>
-    <p-button 
+    <a pButton 
       label="Adicionar Jogo" 
       icon="pi pi-plus" 
-      (click)="onAddNew()"
+      [routerLink]="['/novo']"
       styleClass="p-button-success"
-    ></p-button>
+    ></a>
   </div>
 
   <div class="table-container" *ngIf="games.length > 0">
@@ -40,20 +40,12 @@
           </td>
           <td>
             <div class="action-buttons">
-              <p-button 
-                icon="pi pi-eye" 
-                pTooltip="Ver detalhes"
-                styleClass="p-button-text p-button-info"
-                (click)="onViewDetails(game)"
-              ></p-button>
-              
-              <p-button 
+              <a pButton 
                 icon="pi pi-pencil" 
                 pTooltip="Editar"
                 styleClass="p-button-text p-button-warning"
-                (click)="onEdit(game)"
-              ></p-button>
-              
+                [routerLink]="['/editar', game.id]"
+              ></a>
               <p-button 
                 icon="pi pi-trash" 
                 pTooltip="Excluir"
@@ -72,12 +64,12 @@
       <i class="pi pi-gamepad-2"></i>
       <h3>Nenhum jogo encontrado</h3>
       <p>Sua lista de jogos está vazia. Adicione o primeiro jogo clicando no botão abaixo.</p>
-      <p-button 
+      <a pButton 
         label="Adicionar Primeiro Jogo" 
         icon="pi pi-plus" 
-        (click)="onAddNew()"
+        [routerLink]="['/novo']"
         styleClass="p-button-success"
-      ></p-button>
+      ></a>
     </div>
   </div>
 </div>

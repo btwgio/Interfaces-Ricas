@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { TableModule } from 'primeng/table';
 import { ButtonModule } from 'primeng/button';
 import { TagModule } from 'primeng/tag';
@@ -19,7 +19,8 @@ import { MyGameList } from '../../models/mygamelist.model';
     ButtonModule,
     TagModule,
     ConfirmDialogModule,
-    ToastModule
+    ToastModule,
+    RouterModule 
   ],
   templateUrl: './mygamelist-list.component.html',
   styleUrl: './mygamelist-list.component.scss',
